@@ -1,9 +1,23 @@
-import express from 'express'
+import express = require('express');
+import { request } from 'http';
 
 const app = express();
 
-app.listen(30011);
+app.get('/users',(req,res)=>{
+    return res.json({message:'hello word'});
+})
+
+
+
+
+
+app.listen(3333,() =>{
+    console.log("servidor rodando")
+})
 
 // npm i @types/node
 // npm i @types/node
 //npm i nodemon
+//npm install -g ts-node
+//npm i -g typescript
+//npm i ts-node-dev
