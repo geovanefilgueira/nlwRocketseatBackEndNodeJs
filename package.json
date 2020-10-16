@@ -1,0 +1,24 @@
+{
+  "name": "nlwrocketseatbackendnodejs",
+  "version": "1.0.0",
+  "description": "Projeto proposto pela rocketseat denominado \"Happy\" destinado ao desenvolvimento de um aplicação para o apoio a orfanatos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geovanefilgueira/nlwRocketseatBackEndNodeJs.git"
+  },
+  "author": "geovane filgueira de almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geovanefilgueira/nlwRocketseatBackEndNodeJs/issues"
+  },
+  "homepage": "https://github.com/geovanefilgueira/nlwRocketseatBackEndNodeJs#readme",
+  "dependencies": {
+    "@types/node": "^14.11.8",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.5"
+  }
+}
